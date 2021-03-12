@@ -7,4 +7,16 @@
     height: 200px;
     background-color: pink;
     border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+.row .row [class*="col-"] {
+    background-color: lightcoral;
+    border: 1px solid white;
+    height: 180px;
+}
+p {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
 }
